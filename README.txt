@@ -1,0 +1,1 @@
+Demo of @crxjs/vite-plugin@beta + react
