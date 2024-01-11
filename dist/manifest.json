@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "CRXJS React Vite Example",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "assets/index.tsx-loader.8006a315.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "resources": [
+        "assets/jsx-runtime.6bbeadf1.js",
+        "assets/index.tsx.7f41b4f3.js"
+      ],
+      "use_dynamic_url": true
+    }
+  ]
+}
